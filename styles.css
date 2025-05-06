@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animation {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+}
+.anim {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: width 0.5s ease, height 0.5s ease, background-color 0.3s ease;
+}
+.anim:hover {
+    background-color: #0056b3;
+}
+@keyframes changeBackground {
+    0% { background-color: #007BFF; }
+    50% { background-color: #28a745; }
+    100% { background-color: #dc3545; }
+}
